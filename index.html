@@ -6,18 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./styles.css">
+  <script src="button.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="header">
+    <div class="header__mobile-navigation">
+      <div class="header-container">
+        <div class="header__navigation-mobile">
+          <a href="" class="header__links-box">О компании<div class="header__links-box-hover"></div></a>
+          <a href="" class="header__links-box">Сайты<div class="header__links-box-hover"></div></a>
+          <a href="" class="header__links-box">Презентации<div class="header__links-box-hover"></div></a>
+          <a href="" class="header__links-box">SMM<div class="header__links-box-hover"></div></a>
+          <a href="" class="header__links-box">SEO<div class="header__links-box-hover"></div></a>
+          <a href="" class="header__links-box">3D-ролики<div class="header__links-box-hover"></div></a>
+          <a href="" class="header__links-box">Контекстная реклама<div class="header__links-box-hover"></div></a>
+          <a href="" class="header__links-box">Портфолио<div class="header__links-box-hover"></div></a>
+          <a href="" class="header__links-box">Контакты<div class="header__links-box-hover"></div></a>
+          <div class="seeYou__contacts-button-box">
+            <button class="seeYou__button-desktop header__call-button seeYou__call-button seeYou__button-top ">Заказать звонок</button>
+            <button class="seeYou__button-desktop header__write-button seeYou__write-button header__button ">Написать в WhatsApp</button>
+            
+            <button class="seeYou__button-mobile"><img class="seeYou__but-img" src="./images/phone.svg" alt=""></button>
+            <button class="seeYou__button-mobile"><img class="seeYou__but-img" src="./images/whatsapp.svg" alt=""></button>
+            <a class="seeYou__insta-link-box" href="">
+              <img class="seeYou__insta-link" src="./images/instaIconButton.svg" alt="instaIconBottom">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="header-container">
       <div class="header__top">
         <img src="./images/mainIcon.svg" alt="mainIcon" class="header__icon">
         <p class="header__text">Развиваем интернет-решения!</p>
-        <button class="header__call-button header__button">Заказать звонок</button>
-        <button class="header__write-button header__button">Написать в WhatsApp</button>
+        <div class="header__button-box">
+          <button class="header__call-button header__button">Заказать звонок</button>
+          <button class="header__write-button header__button">Написать в WhatsApp</button>
+        </div>
         <div class="header__top-info-box">
           <img src="./images/instagramIcon.svg" alt="instagramIcon">
           <div class="header__top-info-container">
@@ -26,16 +54,19 @@
           </div>
         </div>
       </div>
+      <div class="menu-btn">
+        <div class="menu-btn__burger"></div>
+      </div>
       <nav class="header__navigation">
-        <a href="" class="header__links-box">О компании</a>
-        <a href="" class="header__links-box">Сайты</a>
-        <a href="" class="header__links-box">Презентации</a>
-        <a href="" class="header__links-box">SMM</a>
-        <a href="" class="header__links-box">SEO</a>
-        <a href="" class="header__links-box">3D-ролики</a>
-        <a href="" class="header__links-box">Контекстная реклама</a>
-        <a href="" class="header__links-box">Портфолио</a>
-        <a href="" class="header__links-box">Контакты</a>
+        <a href="" class="header__links-box">О компании<div class="header__links-box-hover"></div></a>
+        <a href="" class="header__links-box">Сайты<div class="header__links-box-hover"></div></a>
+        <a href="" class="header__links-box">Презентации<div class="header__links-box-hover"></div></a>
+        <a href="" class="header__links-box">SMM<div class="header__links-box-hover"></div></a>
+        <a href="" class="header__links-box">SEO<div class="header__links-box-hover"></div></a>
+        <a href="" class="header__links-box">3D-ролики<div class="header__links-box-hover"></div></a>
+        <a href="" class="header__links-box">Контекстная реклама<div class="header__links-box-hover"></div></a>
+        <a href="" class="header__links-box">Портфолио<div class="header__links-box-hover"></div></a>
+        <a href="" class="header__links-box">Контакты<div class="header__links-box-hover"></div></a>
       </nav>
     </div>
   </header>
@@ -98,20 +129,22 @@
       </div>
     </div>
     <div class="threeD page">
-        <div class="threeD__box">
-          <div class="threeD__left">
-          </div>
-          <div class="threeD__right">
-          </div>
+      <div class="threeD__box">
+        <div class="threeD__left">
         </div>
+        <div class="threeD__right">
+        </div>
+      </div>
       <div class="threeD__main-box">
-        <div class="threeD__text-box">
-          <p class="heading__text threeD__heading_l">
-            3D ролики
-          </p>
-          <p class="heading__text threeD__heading_r">
-            Контекстная реклама
-          </p>
+        <div class="container">
+          <div class="threeD__text-box">
+            <p class="heading__text threeD__heading_l">
+              3D ролики
+            </p>
+            <p class="heading__text threeD__heading_r">
+              Контекстная реклама
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -140,23 +173,28 @@
         <div class="seeYou__box">
             <div class="seeYou__left">
               <p class="big-headings seeYou__heading">До встречи!</p>
-              <p class="heading__text seeYou__heading">
+              <p class="heading__text seeYou__heading seeYou__heading_small">
                 See U soon!  Görüşürüz! Нахвамидис!
               </p>
             </div>
             <div class="seeYou__right">
-              <h2 class="seeYou__contacts-heading">Контакты:</h2>
-              <p class="seeYou__contacts-info">
-                Казань, Гвардейская, 15, офис 102
-                +7 843 248 5252
-                info@etyle.ru
-              </p>
-              <div class="seeYou__contacts-button-box">
-                <button class="header__call-button seeYou__button-top">Заказать звонок</button>
-                <button class="header__call-button">Заказать звонок</button>
-                <a class="seeYou__insta-link-box" href="">
-                  <img class="seeYou__insta-link" src="./images/instaIconButton.svg" alt="instaIconBottom">
-                </a>
+              <div class="seeYou__right-box">
+                <h2 class="seeYou__contacts-heading">Контакты:</h2>
+                <p class="seeYou__contacts-info">
+                  Казань, Гвардейская, 15, офис 102
+                  +7 843 248 5252
+                  info@etyle.ru
+                </p>
+                <div class="seeYou__contacts-button-box">
+                  <button class="seeYou__button-desktop header__call-button seeYou__call-button seeYou__button-top ">Заказать звонок</button>
+                  <button class="seeYou__button-desktop header__write-button seeYou__write-button header__button ">Написать в WhatsApp</button>
+                  
+                  <button class="seeYou__button-mobile"><img class="seeYou__but-img" src="./images/phone.svg" alt=""></button>
+                  <button class="seeYou__button-mobile"><img class="seeYou__but-img" src="./images/whatsapp.svg" alt=""></button>
+                  <a class="seeYou__insta-link-box" href="">
+                    <img class="seeYou__insta-link" src="./images/instaIconButton.svg" alt="instaIconBottom">
+                  </a>
+                </div>
               </div>
               <p class="seeYou__buttom-text">
                 Copyright 2021, 
