@@ -902,9 +902,6 @@ button {
 }
 
 @media (max-width: 400px) {
-  .block-scroll {
-    overflow-y: hidden;
-  }
   @-webkit-keyframes slide-right {
     0% {
       -webkit-transform: translateX(-15px);
