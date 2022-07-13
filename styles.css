@@ -1271,6 +1271,7 @@ button {
   .seeYou__buttom-text {
     font-size: 15px;
     width: 250px;
+    margin-top: 35vh;
   }
   .seeYou__buttom-text > a {
     font-size: 15px;
