@@ -259,6 +259,7 @@ button {
 .mainBox {
   height: 100vh;
   overflow-y: scroll;
+  overflow-x: hidden;
   -ms-overflow-style: none;
   scrollbar-width: none;
   -ms-scroll-snap-type: y mandatory;
@@ -1002,6 +1003,7 @@ button {
             animation-delay: 0.5s;
   }
   .header__mobile-navigation {
+    z-index: 1;
     background: #E00000;
     top: 100px;
     display: none;
