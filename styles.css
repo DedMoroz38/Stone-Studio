@@ -1282,9 +1282,9 @@ button {
   .seeYou {
     background-image: url(./images/dog.png);
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 90%;
     background-attachment: fixed;
-    background-position: bottom;
+    background-position: bottom left 140px;
   }
   .seeYou__heading {
     margin-bottom: 0;
