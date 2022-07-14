@@ -901,7 +901,7 @@ button {
   }
   .main {
     margin-top: 0;
-    background-position: -900px 0;
+    background-position: -890px 0;
     &__heading {
       font-size: 47px;
       line-height: 50px;
@@ -923,12 +923,12 @@ button {
       width: 100%;
     }
     &__text{
-      -webkit-text-stroke: 1px black;
+      -webkit-text-stroke: 1.3px black;
       height: auto;
       font-size: 20px;
       line-height: 20px;
       width: 100%;
-      color: #C80000;
+      color: white;
       font-weight: 600;
     }
     &__button-info{
