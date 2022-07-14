@@ -1008,6 +1008,10 @@ button {
     }
   }
   .threeD {
+    &__main-box{
+      width: auto;
+      left: 40%;
+    }
     &__box{
       flex-direction: column;
     }

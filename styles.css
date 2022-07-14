@@ -1213,6 +1213,10 @@ button {
     height: 49vh;
     width: 100vw;
   }
+  .threeD__main-box {
+    width: auto;
+    left: 40%;
+  }
   .threeD__box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
