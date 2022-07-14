@@ -8,11 +8,12 @@
 body {
   font-weight: 400;
   color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 button {
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 .menu-btn {
@@ -972,6 +973,9 @@ button {
       -webkit-transform: translateX(0);
       transform: translateX(0);
     }
+  }
+  .block-scroll {
+    overflow-y: hidden;
   }
   .big-headings {
     font-size: 50px;

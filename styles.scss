@@ -6,10 +6,11 @@
 body {
   font-weight: 400;
   color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
 button {
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif !important;
 }
 // Humburger button
 .menu-btn {
@@ -807,7 +808,9 @@ button {
               transform: translateX(0);
     }
   }
-
+  .block-scroll {
+    overflow-y: hidden;
+  }
   .big-headings{
     font-size: 50px;
     line-height: 50px;
