@@ -65,7 +65,25 @@ button {
 .container {
   max-width: 1600px;
   margin: 0 auto;
+  opacity: 0;
+  transform: translateY(150px);
+  transition: all 0.5s ease;
 }
+.container.active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.seoHeadings{
+  opacity: 0;
+  transform: translateY(150px);
+  transition: all 0.5s ease;
+}
+.seoHeadings.active{
+  opacity: 1;
+  transform: translateY(0px);
+}
+
 .header-container{
   margin: 0 auto;
   max-width: 1140px;
@@ -211,8 +229,8 @@ button {
   height: 98vh;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
+
 
 .big-headings{
   font-size: 120px;
