@@ -1,1 +1,1 @@
-# Stone-Studeo
+# Stone-Studio
