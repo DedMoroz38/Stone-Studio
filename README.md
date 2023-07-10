@@ -1,1 +1,1 @@
-# Stone-Stuseo
+# Stone-Studeo
