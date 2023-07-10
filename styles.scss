@@ -1,16 +1,16 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
   font-weight: 400;
-  color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif !important;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif !important;
 }
 button {
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 // Humburger button
 .menu-btn {
@@ -21,7 +21,7 @@ button {
   width: 40px;
   height: 40px;
   cursor: pointer;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   /* border: 3px solid #fff; */
 }
 .menu-btn__burger {
@@ -29,19 +29,19 @@ button {
   height: 6px;
   background: #fff;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255,101,47,.2);
-  transition: all .5s ease-in-out;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  transition: all 0.5s ease-in-out;
 }
 .menu-btn__burger::before,
 .menu-btn__burger::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 40px;
   height: 6px;
   background: #fff;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255,101,47,.2);
-  transition: all .5s ease-in-out;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  transition: all 0.5s ease-in-out;
 }
 .menu-btn__burger::before {
   transform: translateY(-12px);
@@ -74,29 +74,29 @@ button {
   transform: translateY(0px);
 }
 
-.seoHeadings{
+.seoHeadings {
   opacity: 0;
   transform: translateY(150px);
   transition: all 0.5s ease;
 }
-.seoHeadings.active{
+.seoHeadings.active {
   opacity: 1;
   transform: translateY(0px);
 }
 
-.header-container{
+.header-container {
   margin: 0 auto;
   max-width: 1140px;
 }
 .header {
-  background: #E00000;
+  background: #e00000;
   padding-top: 55px;
   font-size: 18px;
   line-height: 16px;
-  &__button-box{
+  &__button-box {
     display: flex;
   }
-  &__button{
+  &__button {
     color: #ffffff;
     font-size: 18px;
     font-weight: 400;
@@ -120,11 +120,11 @@ button {
     width: 241px;
     height: 52px;
     background: rgba(255, 255, 255, 0.0001);
-    border: 3px solid #FFFFFF;
+    border: 3px solid #ffffff;
     border-radius: 26px;
     font-size: 18.45px;
     line-height: 90px;
-    color: #FFFFFF;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,8 +133,8 @@ button {
   }
   &__call-button:hover {
     border: none;
-    color: #E00000;
-    background: #FFFFFF;
+    color: #e00000;
+    background: #ffffff;
   }
   &__write-button {
     cursor: pointer;
@@ -143,28 +143,28 @@ button {
     justify-content: center;
     font-size: 18.45px;
     line-height: 90px;
-    color: #E00000;
+    color: #e00000;
     border: none;
     border-radius: 26px;
     width: 256px;
     height: 52px;
-    background: #FFFFFF;
+    background: #ffffff;
     transition: background 0.3s, color 0.3s, border 0.3s;
   }
   &__write-button:hover {
-    border: 3px solid #FFFFFF;
+    border: 3px solid #ffffff;
     color: white;
-    background: #E00000;
+    background: #e00000;
   }
   &__top-info-box {
     display: flex;
     margin-left: 15px;
   }
-  &__top-info-container{
+  &__top-info-container {
     margin-top: 13px;
     display: flex;
     flex-direction: column;
-    align-items:flex-end;
+    align-items: flex-end;
     margin-left: 18px;
   }
   &__info-phone {
@@ -193,10 +193,10 @@ button {
     font-weight: 500;
     font-size: 19px;
     margin: 52px 0 32px 0;
-    color: #FFFFFF;
+    color: #ffffff;
     position: relative;
   }
-  &__links-box-hover{
+  &__links-box-hover {
     top: 10px;
     width: 0px;
     height: 10px;
@@ -204,40 +204,39 @@ button {
     transition: all 0.3s;
     border-bottom: 1px solid white;
   }
-  &__links-box:hover >  &__links-box-hover{
+  &__links-box:hover > &__links-box-hover {
     width: 100%;
     border-bottom: 1px solid white;
   }
-  &__mobile-navigation{
+  &__mobile-navigation {
     display: none;
   }
 }
-.mainBox{
+.mainBox {
   height: 100vh;
   overflow-y: scroll;
   overflow-x: hidden;
   -ms-overflow-style: none;
-  scrollbar-width: none; 
+  scrollbar-width: none;
   scroll-snap-type: y mandatory;
 }
-.mainBox::-webkit-scrollbar{
+.mainBox::-webkit-scrollbar {
   display: none;
 }
 
-.page{
+.page {
   scroll-snap-align: end;
   height: 98vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
-.big-headings{
+.big-headings {
   font-size: 120px;
   line-height: 110px;
   font-weight: 300;
 }
-.heading__text{
+.heading__text {
   font-size: 72px;
   font-weight: 100;
 }
@@ -249,18 +248,18 @@ button {
     font-weight: 400;
     margin-bottom: 27px;
   }
-  &__box{
+  &__box {
     height: 98vh;
     display: flex;
     justify-content: start;
     align-items: center;
   }
-  &__align-box{
+  &__align-box {
   }
 
   &__buttons-box {
     display: flex;
-    margin-bottom: 75px;
+    margin-bottom: 25px;
   }
 
   // .main__button
@@ -269,7 +268,7 @@ button {
     cursor: pointer;
     width: 191px;
     height: 37px;
-    background: #C80000;
+    background: #c80000;
     font-size: 18px;
     line-height: 48px;
     display: flex;
@@ -281,9 +280,9 @@ button {
     &_one {
       // transition: background 0.3s, color 0.3s, border 0.3s;
     }
-    &_two{
+    &_two {
       margin-left: 5px;
-      background: #E69D2E;
+      background: #e69d2e;
       color: #000000;
       width: 263px;
       // transition: background 0.3s, color 0.3s, border 0.3s;
@@ -317,12 +316,12 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
+    color: #ffffff;
     border-radius: 24px;
   }
-  &__info-text > span{
+  &__info-text > span {
     margin-left: 5px;
-    color: #D5B01B;
+    color: #d5b01b;
   }
 
   &__text {
@@ -337,14 +336,14 @@ button {
     width: 240px;
     height: 59px;
     background: rgba(243, 180, 53, 0.0001);
-    border: 3px solid #FFFFFF;
+    border: 3px solid #ffffff;
     font-size: 25px;
     line-height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 29.5px;
-    color: #FFFFFF;
+    color: #ffffff;
     transition: color 0.3s, background 0.3s;
   }
   &__button-info:hover {
@@ -355,7 +354,7 @@ button {
 
 .welcome {
   background-image: url(./images/welcome.png);
-  &__main-box{
+  &__main-box {
     height: 98vh;
     width: 80vh;
     padding: 191px 0;
@@ -377,15 +376,15 @@ button {
 .smm {
   background-image: url(./images/smm.png);
   background-repeat: no-repeat;
-  &__box{
+  &__box {
     height: 98vh;
     display: flex;
     justify-content: end;
     align-items: flex-start;
   }
-  &__text-box{
+  &__text-box {
   }
-  &__text{
+  &__text {
     width: 550px;
   }
   &__heading {
@@ -398,17 +397,17 @@ button {
 }
 
 .seo {
-  &__heading{
-    &_l{
+  &__heading {
+    &_l {
       width: 290px;
       margin-right: 124px;
     }
-    &_r{
+    &_r {
       width: 290px;
       margin-left: 167px;
     }
   }
-  &__boxes{
+  &__boxes {
     display: flex;
     height: 98vh;
   }
@@ -436,12 +435,12 @@ button {
 .threeD {
   height: 98vh;
   position: relative;
-  &__text-box{
+  &__text-box {
     display: flex;
     justify-content: space-between;
     margin-top: 193px;
   }
-  &__main-box{
+  &__main-box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -449,16 +448,16 @@ button {
     width: 1600px;
     height: 98vh;
   }
-  &__heading{
-    &_l{
+  &__heading {
+    &_l {
       width: 240px;
     }
-    &_r{
+    &_r {
       color: #000;
       width: 415px;
     }
   }
-  &__box{
+  &__box {
     display: flex;
   }
   &__left {
@@ -485,11 +484,11 @@ button {
 .presentation {
   background-image: url(./images/presentation.png) !important;
   height: 98vh;
-  &__box{
+  &__box {
     display: flex;
     justify-content: end;
   }
-  &__heading{
+  &__heading {
     margin-top: 219px;
     width: 430px;
   }
@@ -497,7 +496,7 @@ button {
 .portfolio {
   background-image: url(./images/portfolio.png) !important;
   height: 98vh;
-  &__heading{
+  &__heading {
     font-weight: 100;
     color: #000;
     padding-top: 275px;
@@ -510,7 +509,7 @@ button {
     color: #000000;
     margin-bottom: 90px;
   }
-  &__info-button{
+  &__info-button {
     border: 3px solid black;
     color: #000;
     transition: all o.3s;
@@ -521,7 +520,6 @@ button {
   }
 }
 .main {
-
   // .main__button-info
 
   &__button-info {
@@ -529,17 +527,17 @@ button {
 }
 .seeYou {
   background: #eaaa11;
-  &__heading{
+  &__heading {
     width: 785px;
   }
-  &__box{
+  &__box {
     display: flex;
   }
-  &__heading{
+  &__heading {
     padding-top: 159px;
     margin-bottom: 37px;
   }
-  &__heading:last-of-type{
+  &__heading:last-of-type {
     padding-top: 0;
   }
   &__left {
@@ -556,50 +554,49 @@ button {
     margin-left: 161px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
-  &__contacts-heading{
+  &__contacts-heading {
     font-weight: 400;
     font-size: 56px;
     margin-bottom: 40px;
   }
-  &__contacts-info{
+  &__contacts-info {
     width: 556px;
     font-size: 36px;
     margin-bottom: 64px;
   }
-  &__insta-link-box{
+  &__insta-link-box {
     margin-top: 36px;
     width: fit-content;
     display: block;
   }
-  &__insta-link{
-    filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(212deg) brightness(106%) contrast(101%);
+  &__insta-link {
+    filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(212deg)
+      brightness(106%) contrast(101%);
   }
-  &__button-top{
+  &__button-top {
     transition: all 0.3s;
     margin-bottom: 27px;
   }
-  &__button-top:hover{
+  &__button-top:hover {
     color: #eaaa11;
   }
-  &__write-button{
+  &__write-button {
     transition: all 0.3s;
   }
   &__write-button:hover {
     background: #eaaa11;
   }
-  &__buttom-text{
+  &__buttom-text {
     width: 485px;
     font-size: 30px;
-    margin-top: 80px;
-    margin-bottom: 30px;
+    margin-top: 20px;
   }
-  &__buttom-text > a{
+  &__buttom-text > a {
     color: #ffffff;
     text-decoration: underline;
   }
-  &__button-mobile{
+  &__button-mobile {
     display: none;
   }
   &__write-button {
@@ -607,39 +604,39 @@ button {
   }
 }
 @media (max-width: 1400px) {
-  .container{
+  .container {
     max-width: 1040px;
   }
-  .header{
+  .header {
     padding-top: 20px;
   }
-  .header-container{
+  .header-container {
     max-width: 1040px;
   }
-  .big-headings{
+  .big-headings {
     font-size: 70px;
     line-height: 67px;
     letter-spacing: 1px;
   }
-  .header__text{
+  .header__text {
     margin-right: 8px;
   }
-  .header__call-button{
+  .header__call-button {
     margin-right: 8px;
   }
-  .header__top-info-box{
+  .header__top-info-box {
     margin-left: 8px;
   }
-  .header__top-info-container{
+  .header__top-info-container {
     margin-left: 8px;
   }
-  .header__info-phone{
+  .header__info-phone {
     font-size: 20px;
   }
-  .header__info-address{
+  .header__info-address {
     font-size: 12px;
   }
-  .heading__text{
+  .heading__text {
     font-size: 40px;
     line-height: 35px;
   }
@@ -651,19 +648,19 @@ button {
       margin-bottom: 20px;
     }
     &__text {
-      margin-bottom: 40px;
+      margin-bottom: 12px;
     }
   }
   .welcome {
     background-size: cover;
     background-position: 0 -50px;
-    &__box{
+    &__box {
       display: flex;
       justify-content: start;
       align-items: center;
       height: 98vh;
     }
-    &__main-box{
+    &__main-box {
       height: fit-content;
       padding: 0;
       margin-bottom: 0;
@@ -677,11 +674,11 @@ button {
   }
   .smm {
     background-position: 0 -80px;
-    &__box{
+    &__box {
       display: flex;
       align-items: center;
     }
-    &__text{
+    &__text {
       width: 300px;
     }
     &__heading {
@@ -690,12 +687,12 @@ button {
     }
   }
   .seo {
-    &__heading{
-      &_l{
+    &__heading {
+      &_l {
         margin-right: 50px;
         width: 160px;
       }
-      &_r{
+      &_r {
         margin-left: 50px;
       }
     }
@@ -724,23 +721,23 @@ button {
       background-repeat: no-repeat;
       background-size: cover;
     }
-    &__text-box{
+    &__text-box {
       margin-top: 50px;
     }
-    &__main-box{
+    &__main-box {
       width: 1040px;
     }
-    &__heading{
-      &_l{
+    &__heading {
+      &_l {
         width: 140px;
       }
-      &_r{
+      &_r {
         width: 230px;
       }
     }
   }
   .presentation {
-    &__heading{
+    &__heading {
       margin-top: 50px;
       width: 250px;
     }
@@ -749,13 +746,13 @@ button {
   .portfolio {
     // background-size: 100%;
     background-position: 0 -25px;
-    &__box{
+    &__box {
       height: 98vh;
       display: flex;
       align-items: center;
       justify-content: start;
     }
-    &__heading{
+    &__heading {
       padding-top: 0;
     }
     &__text {
@@ -765,7 +762,7 @@ button {
     }
   }
   .seeYou {
-    &__heading{
+    &__heading {
       padding-top: 50px;
       width: 440px;
     }
@@ -776,35 +773,34 @@ button {
       padding-top: 70px;
       margin-left: 80px;
     }
-    &__contacts-heading{
+    &__contacts-heading {
       margin-bottom: 15px;
     }
-    &__contacts-info{
+    &__contacts-info {
       margin-bottom: 15px;
       font-size: 20px;
       width: 300px;
     }
-    &__insta-link-box{
+    &__insta-link-box {
       width: 43px;
       height: 43px;
     }
-    &__insta-link{
+    &__insta-link {
       width: 43px;
       height: 43px;
     }
-    &__button-top{
+    &__button-top {
       margin-bottom: 12px;
     }
-    &__buttom-text{
-      margin-top: 40px;
+    &__buttom-text {
       font-size: 20px;
     }
-    &__buttom-text > a{
+    &__buttom-text > a {
       font-size: 20px;
     }
-    &__write-button{
+    &__write-button {
       width: 241px;
-      color:#eaaa11;
+      color: #eaaa11;
     }
   }
 }
@@ -813,103 +809,105 @@ button {
   @-webkit-keyframes slide-right {
     0% {
       -webkit-transform: translateX(-15px);
-              transform: translateX(-15px);
+      transform: translateX(-15px);
     }
     100% {
       -webkit-transform: translateX(0);
-              transform: translateX(0);
+      transform: translateX(0);
     }
   }
   @keyframes slide-right {
     0% {
       -webkit-transform: translateX(-15px);
-              transform: translateX(-15px);
+      transform: translateX(-15px);
     }
     100% {
       -webkit-transform: translateX(0);
-              transform: translateX(0);
+      transform: translateX(0);
     }
   }
   @keyframes slide-in-top {
     0% {
       -webkit-transform: translateY(-1000px);
-              transform: translateY(-1000px);
+      transform: translateY(-1000px);
       opacity: 0;
     }
     100% {
       -webkit-transform: translateY(0);
-              transform: translateY(0);
+      transform: translateY(0);
       opacity: 1;
     }
   }
   .block-scroll {
     overflow-y: hidden;
   }
-  .big-headings{
+  .big-headings {
     font-size: 50px;
     line-height: 50px;
   }
-  .menu-btn{
+  .menu-btn {
     display: flex;
   }
-  .container{
+  .container {
     max-width: 310px;
   }
-  .heading__text{
+  .heading__text {
     line-height: 35px;
   }
-  .header-container{
+  .header-container {
     align-items: center;
     max-width: 310px;
     display: flex;
     justify-content: space-between;
   }
-  .header{
+  .header {
     position: relative;
     padding: 10px 0;
-    &__navigation-mobile{
+    &__navigation-mobile {
       display: flex;
       flex-direction: column;
       margin-top: 25px;
     }
-    &__links-box{
+    &__links-box {
       margin: 0 0 30px 0;
-      -webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+        both;
+      animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     }
-    &__links-box:nth-child(1){
+    &__links-box:nth-child(1) {
       animation-delay: 0.4s;
     }
-    &__links-box:nth-child(2){
+    &__links-box:nth-child(2) {
       animation-delay: 0.45s;
     }
-    &__links-box:nth-child(3){
+    &__links-box:nth-child(3) {
       animation-delay: 0.5s;
     }
-    &__links-box:nth-child(4){
+    &__links-box:nth-child(4) {
       animation-delay: 0.55s;
     }
-    &__links-box:nth-child(5){
+    &__links-box:nth-child(5) {
       animation-delay: 0.6s;
     }
-    &__links-box:nth-child(6){
+    &__links-box:nth-child(6) {
       animation-delay: 0.65s;
     }
-    &__links-box:nth-child(7){
+    &__links-box:nth-child(7) {
       animation-delay: 0.7s;
     }
-    &__links-box:nth-child(8){
+    &__links-box:nth-child(8) {
       animation-delay: 0.75s;
     }
-    &__links-box:nth-child(9){
+    &__links-box:nth-child(9) {
       animation-delay: 0.8s;
     }
-    
-    &__mobile-navigation{
-      -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-      animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+    &__mobile-navigation {
+      -webkit-animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+        both;
+      animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
       z-index: 1;
-      background: #E00000;
+      background: #e00000;
       top: 62px;
       display: none;
       position: absolute;
@@ -917,22 +915,22 @@ button {
       height: auto;
       padding-bottom: 20px;
     }
-    &__icon{
+    &__icon {
       width: 130px;
       margin-right: 8px;
     }
-    &__top{
+    &__top {
       align-items: center;
     }
-    &__text{
+    &__text {
       margin: 5px 0;
       font-size: 13px;
       width: 120px;
     }
-    &__button-box{
+    &__button-box {
       display: none;
     }
-    &__call-button{
+    &__call-button {
       width: 150px;
       font-size: 12px;
     }
@@ -940,14 +938,14 @@ button {
       width: 150px;
       font-size: 12px;
     }
-    &__navigation{
+    &__navigation {
       display: none;
     }
-    &__top-info-box{
+    &__top-info-box {
       display: none;
     }
   }
-  .visible{
+  .visible {
     display: block;
   }
   .main {
@@ -958,22 +956,22 @@ button {
       line-height: 50px;
       font-weight: 300;
     }
-    &__buttons-box{
+    &__buttons-box {
       flex-direction: column;
       margin-bottom: 15px;
     }
-    &__button{
-      &_two{
+    &__button {
+      &_two {
         width: 191px;
         margin-left: 0;
         margin-top: 15px;
       }
     }
-    &__info-text{
+    &__info-text {
       font-size: 16px;
       width: 100%;
     }
-    &__text{
+    &__text {
       height: auto;
       font-size: 20px;
       line-height: 20px;
@@ -981,7 +979,7 @@ button {
       color: white;
       font-weight: 400;
     }
-    &__button-info{
+    &__button-info {
       font-size: 16px;
       width: 191px;
     }
@@ -993,13 +991,13 @@ button {
       font-size: 35px;
       line-height: 35px;
     }
-    &__box{
+    &__box {
       display: flex;
       justify-content: start;
       align-items: flex-start;
       height: 98vh;
     }
-    &__main-box{
+    &__main-box {
       margin-top: 120px;
       height: fit-content;
       padding: 0;
@@ -1016,11 +1014,11 @@ button {
     background-position: -20px 0;
     background-repeat: no-repeat;
     background-size: cover;
-    &__box{
+    &__box {
       padding-top: 20px;
       align-items: flex-start;
     }
-    &__text-box{
+    &__text-box {
       height: 100%;
       display: flex;
       flex-direction: column;
@@ -1032,7 +1030,7 @@ button {
       width: 252px;
       margin-bottom: 0;
     }
-    &__text{
+    &__text {
       margin-bottom: 150px;
     }
   }
@@ -1040,11 +1038,11 @@ button {
     &__boxes {
       flex-direction: column;
     }
-    &__heading{
-      &_l{
+    &__heading {
+      &_l {
         margin-right: 20px;
       }
-      &_r{
+      &_r {
         margin-left: 20px;
       }
     }
@@ -1063,11 +1061,11 @@ button {
     }
   }
   .threeD {
-    &__main-box{
+    &__main-box {
       width: auto;
       left: 40%;
     }
-    &__box{
+    &__box {
       flex-direction: column;
     }
     &__left {
@@ -1086,22 +1084,21 @@ button {
       margin-top: 0;
       height: 61vh;
     }
-    &__heading{
-      &_l{
+    &__heading {
+      &_l {
         margin-top: 20px;
         color: #000;
       }
       &_r {
-
       }
     }
   }
   .presentation {
     background-position: -210px 0;
-    &__box{
+    &__box {
       justify-content: start;
     }
-    &__heading{
+    &__heading {
       margin-top: 20px;
       font-size: 35px;
       width: 196px;
@@ -1113,16 +1110,16 @@ button {
     background-position: -420px 0;
     background-size: cover;
     background-repeat: no-repeat;
-    &__heading{
+    &__heading {
       margin-bottom: 40px;
     }
-    &__text{
+    &__text {
       margin-bottom: 260px;
       font-size: 20px;
       line-height: 20px;
     }
     &__box {
-      align-items:flex-start;
+      align-items: flex-start;
       padding-top: 30px;
     }
   }
@@ -1132,7 +1129,7 @@ button {
     background-size: 90%;
     background-attachment: fixed;
     background-position: bottom left 140px;
-    &__heading{
+    &__heading {
       margin-bottom: 0;
       padding-top: 0;
       width: 280px;
@@ -1144,7 +1141,7 @@ button {
         width: 180px;
       }
     }
-    &__box{
+    &__box {
       flex-direction: column;
       padding-top: 20px;
     }
@@ -1159,49 +1156,50 @@ button {
       margin-left: 0;
       height: 48vh;
     }
-    &__contacts-heading{
+    &__contacts-heading {
       font-size: 35px;
       margin-top: 10px;
       margin-bottom: 10px;
     }
-    &__contacts-button-box{
+    &__contacts-button-box {
       width: 200px;
       display: flex;
-      justify-content:space-between;
+      justify-content: space-between;
     }
-   &__button-mobile{
-    filter: invert(99%) sepia(0%) saturate(2137%) hue-rotate(172deg) brightness(118%) contrast(100%);
-    border: none;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-   }
-   &__but-img{
-    width: 40px;
-    height: 40px;
-   }
-   &__insta-link-box{
-    margin-top: 0;
-    width: 40px;
-    height: 40px;
-   }
-   &__insta-link{
-    width: 40px;
-    height: 40px;
-   }
-   &__buttom-text{
-    font-size: 13px;
-    width: 250px;
-    margin-top: 35vh;
-   }
-   &__buttom-text > a {
-    font-size: 13px;
-   }
+    &__button-mobile {
+      filter: invert(99%) sepia(0%) saturate(2137%) hue-rotate(172deg)
+        brightness(118%) contrast(100%);
+      border: none;
+      background: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+    }
+    &__but-img {
+      width: 40px;
+      height: 40px;
+    }
+    &__insta-link-box {
+      margin-top: 0;
+      width: 40px;
+      height: 40px;
+    }
+    &__insta-link {
+      width: 40px;
+      height: 40px;
+    }
+    &__buttom-text {
+      font-size: 13px;
+      width: 250px;
+      margin-top: 35vh;
+    }
+    &__buttom-text > a {
+      font-size: 13px;
+    }
   }
-  .seeYou__button-desktop{
+  .seeYou__button-desktop {
     display: none;
   }
 }
